@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --font: "Roboto", sans-serif;
+}
+
+.container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1.5fr 6fr;
+    order: 1;
+    
+}
+
+header{
+    background: #FAF9F6;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding-bottom: 2rem;
+}
+
+aside{
+    background: #1992D4;
+    grid-row: 1/4;
+    grid-column: 1/2;
+    
+}
+
+
+main{
+    background: #E2E8F0;
+}
+
+article{
+    display: grid;
+    grid-template-columns: 280px 280px 280px;;
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+
+
+
+.search{
+    background: #E2E8F0;
+    width: 25rem;
+    height: 1.1rem;
+    border-radius: 10px;
+}
+
+svg{
+    width: 1.5rem;
+    height: 1rem;
+   
+}
+
+
+
+
+
+img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/*HEADER*/
+
+
+
+
+.top.left, .top.right{
+    display: flex;
+    align-items: center;
+    
+}
+
+.top.right{
+    gap: 10px;
+    justify-self: center;
+    margin-left: 4rem;
+}
+
+.top.left{
+    justify-self: center;
+    gap: 14px;
+    margin-right: 0.5rem;
+
+}
+
+
+.peng{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.bot.left{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    margin-right: 9rem;
+    align-items: center;
+}
+
+.bot.right{
+    display: flex;
+    gap: 15px;
+    justify-content:start;
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.inner.txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.header.text{
+    font-size: 12px;
+}
+
+button{
+    background: #1992D4;
+    width:6em;
+    padding: 5px;
+    border: none;
+    color: #FAF9F6;
+    border-radius: 15px;
+}
+
+/*ASIDE */
+
+p{
+    font-size: 14px;
+}
+
+p, .icon{
+    align-items: center;
+    justify-content: center;
+    fill: white;
+    color: white;
+    margin-left: 10px;
+}
+
+.icon.window{
+    width: 2rem;
+    height: 3rem;
+    align-self: center;
+    right: 2px;
+    position: relative;
+   
+}
+
+.dash{
+    color: white;
+    align-self: center;
+    margin-left: 10px;
+   
+}
+
+.con.one, .con.two{
+    display: inline-grid;
+    grid-template-columns: 2rem 4rem;
+    justify-content: start;
+    gap: 6px;
+    grid-row-gap: 1rem;
+}
+
+.con.two{
+    margin-top: 3rem;
+}
+
+/*ARTICLE*/
+
+.box{
+    background: #FAF9F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-left: solid 12px #FFDEBD;
+    justify-content: center;
+    gap: 6rem;
+    
+}
+
+
+
+
+
+.box.three{
+    grid-row: span 2;
+}
+
+
+
+.yow.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 1rem;
+   
+}
+
+.cool{
+    margin-left: 10px;
+}
+
+
+.box p{
+    color: black;
+    font-size: 14px;
+}
+    
+
+
+.yow.one{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    top: 1rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
